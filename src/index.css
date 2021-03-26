@@ -1,0 +1,41 @@
+* {
+    font-family: Calibri;
+    font-size: 1.2rem;
+}
+
+body {
+    padding: 40px;
+}
+
+input {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    width: 80%;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+.card p {
+    font-family: "Courier New";
+    font-size: 0.8rem;
+    padding: 5px;
+    text-align: center;
+}
+
+.card img {
+    max-height: 200px;
+}
